@@ -75,7 +75,7 @@ public class Menu {
 		at.setProximoAtendimento(new AtendimentoManutencao());
 		at.setProximoAtendimento(new AtendimentoSuporte());
 		
-		//System.out.println("Agendado atendimento para o cliente: " + emailCliente +"\n Telefone: "+telCliente);
+		System.out.println("Agendado atendimento para o(a) cliente: " + emailCliente +"\n Telefone: "+telCliente);
 		
 		atendido = at.agendar(tipo);
 	}
